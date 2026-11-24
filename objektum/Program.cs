@@ -38,14 +38,14 @@ namespace objektum
 
             public void Kiir()
             {
-                Console.WriteLine("Játék: " + Cim);
-                Console.WriteLine("Műfaj: " + Mufaj);
-                Console.WriteLine("Platform: " + Platform);
-                Console.WriteLine("Év: " + Ev);
-                Console.WriteLine("Fejlesztő: " + Fejleszto);
-                Console.WriteLine("Ár: " + Ar + " EUR");
+                Console.WriteLine("Jatek: " + Cim);
+                Console.WriteLine("Mufaj: " + Mufaj);
+                Console.WriteLine("Platfom: " + Platform);
+                Console.WriteLine("Ev: " + Ev);
+                Console.WriteLine("Fejleszto: " + Fejleszto);
+                Console.WriteLine("Ar: " + Ar + " EUR");
                 Console.WriteLine("Multiplayer: " + Multiplayer);
-                Console.WriteLine("Korhatár: " + Korhatar);
+                Console.WriteLine("Korhatar: " + Korhatar);
             }
         }
 
@@ -72,7 +72,7 @@ namespace objektum
                 }
                 if (!int.TryParse(adatok[3], out int ev))
                 {
-                    Console.WriteLine("Hibás év: " + adatok[3]);
+                    Console.WriteLine("hibas ev: " + adatok[3]);
                     continue;
                 }
 
@@ -97,7 +97,7 @@ namespace objektum
                 jatekok.Add(jatek);
             }
 
-            Console.WriteLine("BEOLVASOTT JATEKOK");
+            Console.WriteLine("beolvasott jatekok");
             Console.WriteLine("====================");
 
             foreach (Game jatek in jatekok)
@@ -106,7 +106,7 @@ namespace objektum
                 Console.WriteLine("--------------------");
             }
 
-            Console.WriteLine("Beolvasott játékok száma: " + jatekok.Count);
+            Console.WriteLine("Beolvasott jatekok szama: " + jatekok.Count);
 
             if (jatekok.Count > 0)
             {
@@ -121,16 +121,16 @@ namespace objektum
                 }
 
                 Console.WriteLine();
-                Console.WriteLine("Legdrágább játék: " + legdragabb.Cim);
-                Console.WriteLine("Ára: " + legdragabb.Ar + " EUR");
+                Console.WriteLine("Legdragabb jatek: " + legdragabb.Cim);
+                Console.WriteLine("ara: " + legdragabb.Ar + " EUR");
             }
             else
             {
-                Console.WriteLine("Nincs beolvasható játék!");
+                Console.WriteLine("Nincs beolvashato jatek!");
             }
 
             Console.WriteLine();
-            Console.WriteLine("2015 UTÁN MEGJELENT JÁTÉKOK");
+            Console.WriteLine("2015 utan megjelent jatekok");
             Console.WriteLine("====================");
 
             foreach (Game jatek in jatekok)
@@ -141,7 +141,29 @@ namespace objektum
                 }
             }
 
-            Console.ReadKey();
+            Console.WriteLine();
+            Console.WriteLine("Multiplayer jatekok");
+            Console.WriteLine("====================");
+
+            foreach (Game jatek in jatekok)
+            {
+                if (jatek.Multiplayer == "igen")
+                {
+                    Console.WriteLine(jatek.Cim);
+                }
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Korhataros jatekok");
+            Console.WriteLine("====================");
+
+            foreach (Game jatek in jatekok)
+            {
+                if (jatek.Korhatar == "18+")
+                {
+                    Console.WriteLine(jatek.Cim);
+                }
+            }
         }
     }
 }
