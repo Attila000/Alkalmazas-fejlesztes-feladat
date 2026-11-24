@@ -1,0 +1,7 @@
+C:\Users\fox20\source\repos\objektum\objektum\bin\Debug\objektum.exe.config
+C:\Users\fox20\source\repos\objektum\objektum\bin\Debug\objektum.exe
+C:\Users\fox20\source\repos\objektum\objektum\bin\Debug\objektum.pdb
+C:\Users\fox20\source\repos\objektum\objektum\obj\Debug\objektum.csproj.AssemblyReference.cache
+C:\Users\fox20\source\repos\objektum\objektum\obj\Debug\objektum.csproj.CoreCompileInputs.cache
+C:\Users\fox20\source\repos\objektum\objektum\obj\Debug\objektum.exe
+C:\Users\fox20\source\repos\objektum\objektum\obj\Debug\objektum.pdb

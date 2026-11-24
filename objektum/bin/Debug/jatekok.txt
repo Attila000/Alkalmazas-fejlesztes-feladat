@@ -1,0 +1,12 @@
+
+cim|mufaj|platform|megjelenesi_ev|fejleszto|ar_eur|multiplayer|korhatar
+The Witcher 3: Wild Hunt|Akció-szerepjáték|PC, PlayStation, Xbox, Nintendo Switch|2015|CD Projekt Red|39.99|nem|18+
+Minecraft|Sandbox, túlélő|PC, PlayStation, Xbox, Nintendo Switch, mobil|2011|Mojang Studios|29.99|igen|7+
+Grand Theft Auto V|Akció-kaland|PC, PlayStation, Xbox|2013|Rockstar North|29.99|igen|18+
+Stardew Valley|Szimuláció, szerepjáték|PC, PlayStation, Xbox, Nintendo Switch, mobil|2016|ConcernedApe|13.99|igen|7+
+Portal 2|Logikai, platform|PC, PlayStation, Xbox|2011|Valve|9.99|igen|12+
+Cyberpunk 2077|Akció-szerepjáték|PC, PlayStation, Xbox|2020|CD Projekt Red|59.99|nem|18+
+Among Us|Partijáték, következtetős|PC, PlayStation, Xbox, Nintendo Switch, mobil|2018|Innersloth|4.99|igen|7+
+Hades|Roguelike, akció|PC, PlayStation, Xbox, Nintendo Switch|2020|Supergiant Games|24.99|nem|12+
+Rocket League|Sport, autós|PC, PlayStation, Xbox, Nintendo Switch|2015|Psyonix|0.00|igen|3+
+The Legend of Zelda: Breath of the Wild|Akció-kaland|Nintendo Switch, Wii U|2017|Nintendo EPD|59.99|nem|12+
